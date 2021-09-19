@@ -1,0 +1,145 @@
+{
+  "id": "88e5be67-bc55-42e5-9f20-e0c7a86b6880",
+  "version": "2.0",
+  "name": "Skillfactory- open_Google",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "bab58abe-dac7-488b-a13a-bbfb52df0ecd",
+    "name": "Open google",
+    "commands": [{
+      "id": "cba8d0fc-7a77-4e87-9185-8bc4d62e6ad9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "481525e8-e853-4914-9e68-500b75496a13",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f27ff118-e067-449a-9bbb-fe7df5d69c22",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Skillfactory"
+    }, {
+      "id": "d28f8827-2475-43e2-86f4-52d78c326c77",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "31e953e5-127a-4e88-9407-3f65a4818815",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,303)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b9bdffb-1f28-4210-9e6c-67d4476292d1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,510)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a91a7437-adc5-4c95-ac78-22c9603daf46",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Data Scientist",
+      "targets": [
+        ["linkText=Data Scientist", "linkText"],
+        ["css=.c9EJob > td:nth-child(1) .l", "css:finder"],
+        ["xpath=//a[contains(text(),'Data Scientist')]", "xpath:link"],
+        ["xpath=//div[@id='rso']/div/div/table/tbody/tr[2]/td/div/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skillfactory.ru/data-scientist-pro')]", "xpath:href"],
+        ["xpath=//tr[2]/td/div/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Data Scientist')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a742868b-058a-48d7-a818-6e22ba8b63bd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Data Scientist",
+      "targets": [
+        ["linkText=Data Scientist", "linkText"],
+        ["css=.c9EJob > td:nth-child(1) .l", "css:finder"],
+        ["xpath=//a[contains(text(),'Data Scientist')]", "xpath:link"],
+        ["xpath=//div[@id='rso']/div/div/table/tbody/tr[2]/td/div/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skillfactory.ru/data-scientist-pro')]", "xpath:href"],
+        ["xpath=//tr[2]/td/div/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Data Scientist')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0fc8632-1213-46d5-888b-c6f36ec7b5e9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Аналитик данных",
+      "targets": [
+        ["linkText=Аналитик данных", "linkText"],
+        ["css=.dmenKe > .cIkxbf .l", "css:finder"],
+        ["xpath=//a[contains(text(),'Аналитик данных')]", "xpath:link"],
+        ["xpath=//div[@id='rso']/div/div/table/tbody/tr/td[2]/div/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjMkbHlp9TyAhVZQvEDHaUbBNwQjBB6BAgYEAE&url=https%3A%2F%2Fskillfactory.ru%2Fdata-analyst-pro&usg=AOvVaw2ej5aayMAjOwlv63gY1MgH')]", "xpath:href"],
+        ["xpath=//td[2]/div/h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f71d37ee-6d4f-42dd-8788-275f3dafa56f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Аналитик данных",
+      "targets": [
+        ["linkText=Аналитик данных", "linkText"],
+        ["css=.dmenKe > .cIkxbf .l", "css:finder"],
+        ["xpath=//a[contains(text(),'Аналитик данных')]", "xpath:link"],
+        ["xpath=//div[@id='rso']/div/div/table/tbody/tr/td[2]/div/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://skillfactory.ru/data-analyst-pro')]", "xpath:href"],
+        ["xpath=//td[2]/div/h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5456e76f-da8d-4386-bb89-b0f2cf52db88",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Аналитик данных",
+      "targets": [
+        ["linkText=Аналитик данных", "linkText"],
+        ["css=.dmenKe > .cIkxbf .l", "css:finder"],
+        ["xpath=//a[contains(text(),'Аналитик данных')]", "xpath:link"],
+        ["xpath=//div[@id='rso']/div/div/table/tbody/tr/td[2]/div/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjMkbHlp9TyAhVZQvEDHaUbBNwQjBB6BAgYEAE&url=https%3A%2F%2Fskillfactory.ru%2Fdata-analyst-pro&usg=AOvVaw2ej5aayMAjOwlv63gY1MgH')]", "xpath:href"],
+        ["xpath=//td[2]/div/h3/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d0cf1e1f-6984-42e4-a5c5-a8124b4edf27",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bab58abe-dac7-488b-a13a-bbfb52df0ecd"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
